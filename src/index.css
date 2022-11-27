@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #0B2434;
+    font-family: 'Karla', sans-serif;
+}
+  
+
+.container {
+  border-top: 70px solid black;
+  border-bottom: 70px solid black;
+  border-left:50px solid black ;
+  border-right: 50px solid black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position:relative;
+  /* margin: 0 auto; */
+}
+.die {
+  width: 90px;
+  margin: 5px;
+  padding: 0.5em;
+  box-shadow: 0 3px 10px rgba(168, 155, 155, 0.703);
+  border-radius: 20%;
+}
+.dice-components {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 55%;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.dice-text {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+}
+.button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.instructions {
+  position: absolute;
+  color: white;
+  left: 0;
+  padding: 1rem;
+  width: 20%;
+  /* height: 30%; */
+  border-radius: 10px;
+  bottom: 0;
+  font-size: 0.75rem;
+  background-color:#36454F	;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
